@@ -32,7 +32,7 @@ function insertarCarrito(elemento) {
     const row = document.createElement('tr');
     row.innerHTML = `
         <td>
-            <img src="${elemento.imagen} width="100" alt="pepe">
+            <img src="${elemento.imagen} width="100" alt="producto">
         </td>
         <td>
             ${elemento.titulo}
