@@ -362,3 +362,95 @@ input {
     color: black;
     scale: 1.125;
 }
+
+@media(max-width:990px) {
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #303030;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    .menu .navbar ul li a {
+        color: #FFFFFF;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+
+    .submenu:hove #carrito {
+        min-width: 340px;
+    }
+
+    .header {
+        min-height: 0vh;
+        padding: 100px 30px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-txt {
+        margin-bottom: 30px;
+    }
+
+    .header-img img {
+        width: 300px;
+    }
+
+    .information {
+        display: none;
+    }
+
+    .oferts {
+        padding: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ofert-1 {
+        margin-bottom: 25px;
+    }
+
+    .products {
+        padding: 30px;
+    }
+
+    .product-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service {
+        flex-direction: column;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
