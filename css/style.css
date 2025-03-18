@@ -86,7 +86,7 @@ img {
 
 .submenu .carrito {
     display: none;
-    
+
 }
 
 .submenu:hover .carrito {
@@ -157,6 +157,12 @@ p {
     text-transform: capitalize;
 }
 
+.btn-1:hover {
+    font-size: 1.1rem;
+    background-color: #78ab3e;
+    transition-duration: 1s;
+}
+
 .header-img {
     flex-basis: 50%;
     text-align: center;
@@ -214,6 +220,7 @@ h3 {
 
 .ofert-1 p {
     font-size: 15px;
+    text-align: center;
     margin: 0;
     font-weight: 600;
     color: #8DC84B;
@@ -345,6 +352,7 @@ input {
 .footer-content {
     display: flex;
     justify-content: space-between;
+    padding: 0px 10px;
 }
 
 .link h3 {
